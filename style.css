@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato';
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 5vh 20vh 65vh 5vh 5vh;
+  align-items: center;
+}
+
+.header ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 20px;
+  padding-top: 10px;
+  list-style-type: none;
+}
+
+.header ul a {
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+  font-size: 14px;
+}
+
+.header ul a:hover {
+  text-decoration: underline;
+}
+
+.apps-img {
+  margin-right: 10px;
+}
+
+.header img {
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.header img:hover {
+  border: 2px solid lightgray;
+  cursor: pointer;
+}
+
+.main {
+  justify-self: center;
+  align-self: flex-start;
+}  
+
+.main img {
+  display: block;
+  margin-left: 150px;
+}
+
+.btn {
+  margin-top: 10px;
+  margin-left: 150px;
+}
+
+input {
+  display: block;
+  width: 580px;
+  height: 45px;
+  border: 2px solid rgb(235, 235, 235);
+  border-radius: 25px;
+  outline: none;
+}
+
+input:hover {
+  filter: drop-shadow(0 0 0.10rem lightgray);;
+}
+
+button {
+  width: 130px;
+  height: 40px;
+  background-color: #F8F9FA;
+  border: none;
+  border-radius: 10px;
+}
+
+button:hover {
+  border: 1px solid lightgray;
+  cursor: pointer;
+}
+
+p {
+  font-size: 13px;
+  margin-top: 20px;
+  margin-left: 190px;
+}
+
+p a {
+  padding: 5px;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  height: 40px;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  margin-bottom: -16px;
+}
+
+.footer p {
+  margin-left: 40px;
+  margin-top: 0;
+}
+
+.footer p {
+  padding-left: 25px;
+  font-size: 14px;
+  color: #6f6f6f;
+}
+
+.footer-2 {
+  height: 40px;
+  background-color: #F2F2F2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid lightgray;
+}
+
+.footer-2 .ul-1 {
+  display: flex;
+  list-style-type: none;
+  padding-left: 55px;
+}  
+
+.footer-2 .ul-1 a {
+  text-decoration: none;
+  color: #6F6F6F;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.footer-2 .ul-1 a:hover {
+  text-decoration: underline;
+}
+
+.footer-2 .ul-2 {
+  display: flex;
+  list-style-type: none;
+  padding-right: 55px;
+}
+
+.footer-2 .ul-2 a {
+  text-decoration: none;
+  color: #6F6F6F;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.footer-2 .ul-2 a:hover {
+  text-decoration: underline;
+}
